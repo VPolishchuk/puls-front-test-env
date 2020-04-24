@@ -14,7 +14,8 @@ import FirebaseProvider from './firebase-auth';
 function App() {
   return (
     <FirebaseProvider>
-      <Router basename="/puls-front-test-env/">
+      {/* <Router basename="/puls-front-test-env/"> */}
+      <Router>
         <Switch>
           <Route path='/' exact component={MainPageLayout}/>
           <Route path='/software' component={''}/>
