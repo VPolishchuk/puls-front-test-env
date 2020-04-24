@@ -1,0 +1,30 @@
+.PortfolioFilter {
+    padding-bottom: 40px;
+    padding-left: 16px;
+    position: relative;
+}
+
+.ActiveTagWrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
+
+.AddTag {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 50%;
+    align-items: center;
+    margin: 6px 10px 6px 0;
+    box-sizing: border-box;
+    justify-content:  center;
+    border: 1.5px solid #333333;
+}
+
+.AddTag:hover {
+    color: #fff;
+    background-color: #333333;
+}

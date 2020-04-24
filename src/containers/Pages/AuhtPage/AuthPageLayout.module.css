@@ -1,0 +1,17 @@
+.AuthPageLayout {
+    padding-top: 80px;
+    display: block;
+    background: #E5E5E5 url("../../../style/Images/Background/PortfolioBackground/PortfolioBackground1920.svg") no-repeat 100% 100%;
+}
+
+.AuthPageLayout main {
+    flex-grow: 1;
+    display: flex;
+    margin: 0 auto;
+    min-height: 90vh;
+    max-width: 1680px;
+    flex-direction: column;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

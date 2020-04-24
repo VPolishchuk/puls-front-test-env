@@ -1,0 +1,318 @@
+.Project {
+    width: 100%;
+}
+
+.Project .content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Project h1 {
+    margin-bottom: 20px;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    color: #CE341F;
+}
+.Project .ProjectLight .content {
+    flex-direction: row;
+}
+
+.Project .ProjectDark .content {
+    flex-direction: row-reverse;
+}
+
+
+.Project .ProjectLight {
+    background-color: #F2F2F2;
+    padding: 160px 160px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.Project .ProjectDark {
+    background-color: #1A1A1A;
+    padding: 160px 160px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.Project .content .aboutProjectText {
+    width: 100%;
+    max-width: 510px;
+    margin: 0 auto;
+}
+
+.Project .ProjectLight p {
+    margin-bottom: 20px;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+
+.Project .ProjectDark p {
+    margin-bottom: 20px;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #E6E6E6;
+}
+
+
+.Project .ProjectLight a {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-decoration-line: none;
+    color: #333333;
+    border-bottom: 1px solid #333333;
+}
+
+.Project .ProjectDark a {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-decoration-line: none;
+    color: #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.Project .projectImage {
+    width: 100%;
+    max-width: 710px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.Project img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1680px) {
+
+    .Project .ProjectLight {
+        padding: 88px 70px;
+    }
+
+    .Project .ProjectDark {
+        padding: 88px 70px;
+    }
+
+    .Project .content {
+        flex-direction: row;
+        height: 100%;
+        max-height: 900px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Project .projectImage {
+        max-width: 510px;
+    }
+
+    .Project .content .aboutProjectText {
+        width: 100%;
+        max-width: 510px;
+    }
+
+    .Project .aboutProjectLink {
+        margin-top: 48px;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .Project .content {
+        flex-direction: row;
+        height: 100%;
+        max-height: 900px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Project .ProjectLight {
+        padding: 80px 32px;
+        flex-direction: row;
+    }
+
+    .Project .ProjectDark {
+        padding: 80px 32px;
+    }
+
+    .Project .ProjectDark .content{
+        flex-direction: row;
+    }
+
+    .Project .projectImage {
+        padding: 0 65px;
+        max-width: 510px;
+    }
+
+    .Project .content .aboutProjectText {
+        width: 100%;
+        max-width: 550px;
+    }
+
+    .Project .aboutProjectLink {
+        margin-top: 48px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .Project .ProjectDark {
+        padding: 56px 18px;
+    }
+
+    .Project .ProjectLight {
+        padding: 56px 18px;
+    }
+
+    .Project .ProjectDark .content{
+        flex-direction: column;
+    }
+
+    .Project .ProjectLight .content{
+        flex-direction: column;
+    }
+
+    .Project .content .aboutProjectText {
+        max-width: 100%;
+    }
+
+    .Project .aboutProjectLink {
+        margin-top: 40px;
+    }
+
+    .Project h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .Project p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .Project .projectImage {
+        padding: 60px 45px 0 45px;
+    }
+
+    @media screen and (orientation: landscape) {
+
+        @supports (padding: max(0px)) {
+            .Project .ProjectDark {
+                padding-left: max(16px, env(safe-area-inset-left));
+                padding-right: max(16px, env(safe-area-inset-right));
+            }
+            .Project .ProjectLight {
+                padding-left: max(16px, env(safe-area-inset-left));
+                padding-right: max(16px, env(safe-area-inset-right));
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    .Project .ProjectDark {
+        padding: 56px 18px;
+    }
+
+    .Project .ProjectLight {
+        padding: 56px 18px;
+    }
+
+    .Project .ProjectDark .content{
+        flex-direction: column;
+    }
+
+    .Project .ProjectLight .content{
+        flex-direction: column;
+    }
+
+    .Project .aboutProjectLink {
+        margin-top: 16px;
+    }
+
+    .Project h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .Project p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .Project .projectImage {
+        padding: 30px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+
+    .Project .ProjectDark {
+        padding: 80px 16px;
+    }
+
+    .Project .ProjectLight {
+        padding: 80px 16px;
+    }
+
+    .Project .ProjectDark .content {
+        flex-direction: column;
+    }
+
+    .Project .ProjectLight .content {
+        flex-direction: column;
+    }
+
+    .Project .aboutProjectLink {
+        margin-top: 16px;
+    }
+
+    .Project h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .Project p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .Project .projectImage {
+        padding: 30px 0 0 0;
+    }
+}

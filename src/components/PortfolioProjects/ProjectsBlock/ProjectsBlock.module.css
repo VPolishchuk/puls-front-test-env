@@ -1,0 +1,55 @@
+.ProjectsBlock {
+    width: 100%;
+    display: grid;
+    margin-bottom: 48px;
+    align-items: stretch;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 3000px) {
+    .ProjectsBlock {
+        grid-gap: 3vw;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .ProjectsBlock {
+        grid-gap: 3vw;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .ProjectsBlock {
+        grid-gap: 3vw;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .ProjectsBlock {
+        grid-gap: 2vw;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .ProjectsBlock {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .ProjectsBlock {
+        grid-gap: 1vw;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ProjectsBlock {
+        grid-gap: 1vw;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

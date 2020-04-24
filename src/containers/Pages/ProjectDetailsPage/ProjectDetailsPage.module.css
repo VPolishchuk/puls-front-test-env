@@ -1,0 +1,76 @@
+/* .DetailsPageWrap {
+    width: 100%;
+    height: max-content;
+    background-color: #fff;
+} */
+
+.DetailsPageWrap {
+    padding-top: 80px;
+    display: block;
+    background: #E5E5E5 url("../../../style/Images/Background/PortfolioBackground/PortfolioBackground1920.svg") no-repeat 100% 100%;
+}
+
+
+.DetailsPageWrap main {
+    flex-grow: 1;
+    display: flex;
+    margin: 0 auto;
+    min-height: 90vh;
+    max-width: 1680px;
+    flex-direction: column;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.DetailsPageWrap main > button {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 3000px) {
+    .DetailsPageWrap main {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 1920px) {
+    .DetailsPageWrap main {
+        padding: 56px 0;
+    }
+}
+
+@media (max-width: 1680px) {
+    .DetailsPageWrap main {
+        padding: 56px 120px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .DetailsPageWrap main {
+        padding: 56px 80px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .DetailsPageWrap main {
+        padding: 56px 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    .DetailsPageWrap main {
+        padding: 56px;
+    }
+}
+
+@media (max-width: 767px) {
+    .DetailsPageWrap main {
+        padding: 40px 25px;
+    }
+}
+
+@media (max-width: 576px) {
+    .DetailsPageWrap main {
+        padding: 26px 20px;
+    }
+}

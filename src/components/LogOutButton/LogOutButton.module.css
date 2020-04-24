@@ -1,0 +1,10 @@
+.ButtonWrap {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+}
+
+.ButtonWrap button {
+    padding: 10px 15px;
+    background-color: #fff;
+}

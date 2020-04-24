@@ -1,0 +1,222 @@
+.Form {
+    width: 100%;
+    padding: 96px 0;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+}
+
+.Form h1 {
+    margin-top: 80px;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #333333;
+    text-align: center;
+}
+
+.Form h1 strong {
+    font-weight: 800;
+}
+
+.Form .formContent {
+    position: relative;
+    width: 100%;
+    max-width: 1328px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.Form .inputFields {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Form .inputFields>div:nth-last-child(1) {
+    max-width: 100%;
+    margin-bottom: 0;
+}
+
+.Form .submitButton {
+    width: 100%;
+    margin-top: 32px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1679px) {
+    .Form {
+        padding: 80px 32px;
+    }
+
+    .Form h1 {
+        margin-top: 40px;
+        font-size: 26px;
+    }
+
+    .Form h1 strong {
+        font-weight: 800;
+    }
+
+    .Form .formContent {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .Form form {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1140px;
+    }
+
+    .Form .submitButton {
+        justify-content: flex-end;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .Form {
+        padding: 80px 32px;
+    }
+
+    .Form h1 {
+        margin-top: 40px;
+        font-size: 26px;
+    }
+
+    .Form h1 strong {
+        font-weight: 800;
+    }
+
+    .Form .formContent {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .Form form {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .Form .submitButton {
+        justify-content: flex-end;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .Form {
+        padding: 80px 24px;
+    }
+
+    .Form h1 {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+    .Form h1 strong {
+        font-weight: 800;
+    }
+
+    .Form .formContent {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .Form form {
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    .Form .submitButton {
+        justify-content: flex-end;
+        padding-top: 10px;
+    }
+
+    @media screen and (orientation: landscape) {
+
+        @supports (padding: max(0px)) {
+            .Form {
+                padding-left: max(16px, env(safe-area-inset-left));
+                padding-right: max(16px, env(safe-area-inset-right));
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .Form {
+        width: 100%;
+        padding: 80px 18px;
+    }
+
+    .Form h1 {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+    .Form h1 strong {
+        font-weight: 800;
+    }
+
+    .Form .formContent {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .Form .inputFile {
+
+    }
+
+    .Form .submitButton {
+        justify-content: flex-end;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .Form {
+        width: 100%;
+        padding: 80px 16px;
+    }
+
+    .Form h1 {
+        margin-top: 40px;
+        font-family: Gilroy, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #333333;
+        text-align: center;
+    }
+
+    .Form h1 strong {
+        font-weight: 800;
+    }
+
+    .Form .formContent {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .Form .inputFile {
+
+    }
+
+    .Form .submitButton {
+        justify-content: center;
+        padding-top: 10px;
+    }
+}

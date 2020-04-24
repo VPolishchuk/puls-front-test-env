@@ -1,0 +1,81 @@
+@import "../../style/Fonts/gilroy/gilroy.css";
+
+.FilterItem {
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    padding: 10px 15px;
+    width: max-content;
+    border-radius: 40px;
+    font-family: Gilroy;
+    align-items: center;
+    margin: 6px 10px 6px 0;
+    box-sizing: border-box;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    border: 1.5px solid #333333;
+
+}
+.FilterItem > span {
+    display: none;
+}
+
+.FilterItem:hover {
+    opacity: 1;
+}
+
+.FilterItem.activeTop {
+    position: relative;
+}
+
+.FilterItem.black {
+    opacity: 1;
+    color: #fff;
+    background: #1A1A1A;
+    border: 1px solid #333333;
+}
+
+.FilterItem.light {
+    opacity: 0.6;
+    color: #333333;
+    background: transparent;
+    border: 1px solid #333333;
+}
+
+.FilterItem.activeTop > span {
+    position: absolute;
+    top: -6px;
+    z-index: 10;
+    right: -4px;
+    width: 15px;
+    height: 15px;
+    display: block;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1.5px solid #333333;
+}
+
+.FilterItem.activeTop span:after {
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 1.5px;
+    position: absolute;
+    background-color: #333333;
+    transform: translate(-50%, -50%) rotateZ(-45deg);
+}
+
+.FilterItem.activeTop span::before {
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 1.5px;
+    position: absolute;
+    background-color: #333333;
+    transform: translate(-50%, -50%) rotateZ(45deg);
+}

@@ -1,0 +1,55 @@
+@import "../../style/Fonts/gilroy/gilroy.css";
+
+.NavLinks {
+    width: 100%;
+    max-width: 381px;
+    height: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavLinks>a {
+    height: 100%;
+    padding-bottom: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+    color: #E6E6E6;
+    outline: none;
+    border-bottom: 2px solid #141414;
+    transition: border-bottom-color .3s ease-in-out;
+    text-decoration: none;
+}
+
+.NavLinks>a:hover {
+    border-bottom-color: #E6E6E6;
+    cursor: pointer;
+}
+
+.NavLinks>a:focus {
+    border-bottom-color: #E6E6E6;
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1680px) {
+    .NavLinks {
+        max-width: 365px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+    .NavLinks {
+        display: none;
+    }
+}

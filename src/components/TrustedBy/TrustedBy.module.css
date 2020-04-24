@@ -1,0 +1,96 @@
+.TrustedBy {
+    width: 100%;
+    padding: 96px 160px;
+    background: #1A1A1A url("../../style/Images/Background/TrustedBy/TrustedBy1200.svg");
+    box-sizing: border-box;
+}
+
+.TrustedBy h1 {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 85px;
+    color: #E6E6E6;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1680px) {
+    .TrustedBy {
+        width: 100%;
+        padding: 88px 70px;
+        background: #1A1A1A url("../../style/Images/Background/TrustedBy/TrustedBy1140.svg");
+        box-sizing: border-box;
+    }
+
+    .TrustedBy h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .TrustedBy {
+        width: 100%;
+        padding: 80px 32px;
+        background: #1A1A1A url("../../style/Images/Background/TrustedBy/TrustedBy960.svg");
+        box-sizing: border-box;
+    }
+
+    .TrustedBy h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .TrustedBy {
+        width: 100%;
+        padding: 80px 24px;
+        background: #1A1A1A url("../../style/Images/Background/TrustedBy/TrustedBy720.svg");
+        box-sizing: border-box;
+    }
+
+    .TrustedBy h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    @media screen and (orientation: landscape) {
+
+        @supports (padding: max(0px)) {
+            .TrustedBy {
+                padding-left: max(16px, env(safe-area-inset-left));
+                padding-right: max(16px, env(safe-area-inset-right));
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .TrustedBy {
+        width: 100%;
+        padding: 80px 19px;
+        background: #1A1A1A url("../../style/Images/Background/TrustedBy/TrustedBy576.svg");
+        box-sizing: border-box;
+    }
+
+    .TrustedBy h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .TrustedBy {
+        width: 100%;
+        padding: 80px 16px;
+        background: #1A1A1A url("../../style/Images/Background/TrustedBy/TrustedBy425.svg");
+        box-sizing: border-box;
+    }
+
+    .TrustedBy h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}

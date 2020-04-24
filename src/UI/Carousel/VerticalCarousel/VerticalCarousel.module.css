@@ -1,0 +1,230 @@
+.VerticalCarousel {
+    height: 431px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.VerticalCarousel .carouselContent {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.VerticalCarousel .slideItem, .VerticalCarousel .slideItemActive, .VerticalCarousel .faded  {
+    height: 140px;
+    margin-bottom: 15px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.VerticalCarousel .slideItemActive h2 {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 142px;
+    color: #CE341F;
+    text-align: center;
+    transition: all .9s;
+}
+
+.VerticalCarousel .faded h2{
+    opacity: 0;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    letter-spacing: 0.05em;
+    color: #E59393;
+    text-align: center;
+    transition: all .6s;
+}
+
+.VerticalCarousel .slideItem h2 {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    letter-spacing: 0.05em;
+    color: #E59393;
+    opacity: 0.15;
+    text-align: center;
+    transition: all .6s;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1680px) {
+    .VerticalCarousel {
+        height: 360px;
+    }
+
+    .VerticalCarousel .carouselContent {
+        max-width: 750px;
+    }
+
+    .VerticalCarousel .slideItem, .VerticalCarousel .slideItemActive, .VerticalCarousel .faded {
+        height: 130px;
+        margin: 0;
+    }
+
+    .VerticalCarousel .slideItemActive h2 {
+        font-size: 100px;
+        line-height: 110px;
+    }
+    
+    .VerticalCarousel #bigWord {
+        font-size: 70px;
+        line-height: 70px;
+        width: 500px;
+    }
+
+    .VerticalCarousel .slideItem #bigWord {
+        font-size: 40px;
+        line-height: 40px;
+        width: 400px;
+    }
+
+    .VerticalCarousel .faded #bigWord{
+        font-size: 40px;
+        line-height: 40px;
+        width: 400px;
+    }
+
+    .VerticalCarousel .slideItem h2 {
+        font-size: 54px;
+        line-height: 54px;
+    }
+
+    .VerticalCarousel .faded h2{
+        font-size: 54px;
+        line-height: 54px;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .VerticalCarousel {
+        height: 340px;
+    }
+
+    .VerticalCarousel .carouselContent {
+        max-width: 650px;
+    }
+
+    .VerticalCarousel .slideItem, .VerticalCarousel .slideItemActive, .VerticalCarousel .faded {
+        height: 110px;
+        margin: 0;
+    }
+
+    .VerticalCarousel .slideItemActive h2 {
+        font-size: 110px;
+        line-height: 110px;
+    }
+
+    .VerticalCarousel .slideItem h2 {
+        font-size: 54px;
+        line-height: 54px;
+    }
+
+    .VerticalCarousel .faded h2{
+        font-size: 54px;
+        line-height: 54px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .VerticalCarousel {
+        height: 310px;
+    }
+
+    .VerticalCarousel .carouselContent {
+        max-width: 550px;
+    }
+
+    .VerticalCarousel .slideItem, .VerticalCarousel .slideItemActive, .VerticalCarousel .faded {
+        height: 100px;
+        margin: 0;
+    }
+
+    .VerticalCarousel .slideItemActive h2 {
+        font-size: 95px;
+        line-height: 95px;
+    }
+
+    .VerticalCarousel .slideItem h2 {
+        font-size: 46px;
+        line-height: 46px;
+    }
+
+    .VerticalCarousel .faded h2{
+        font-size: 46px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .VerticalCarousel {
+        height: 210px;
+    }
+
+    .VerticalCarousel .carouselContent {
+        max-width: 450px;
+    }
+
+    .VerticalCarousel .slideItem, .VerticalCarousel .slideItemActive, .VerticalCarousel .faded {
+        height: 70px;
+        margin: 0;
+    }
+
+    .VerticalCarousel .slideItemActive h2 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .VerticalCarousel .slideItem h2 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .VerticalCarousel .faded h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .VerticalCarousel {
+        height: 225px;
+    }
+
+    .VerticalCarousel .carouselContent {
+        max-width: 300px;
+    }
+
+    .VerticalCarousel .slideItem, .VerticalCarousel .slideItemActive, .VerticalCarousel .faded {
+        height: 60px;
+        margin-bottom: 15px;
+    }
+
+    .VerticalCarousel .slideItemActive h2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .VerticalCarousel .slideItem h2 {
+        font-size: 34px;
+        line-height: 34px;
+    }
+
+    .VerticalCarousel .faded h2{
+        font-size: 34px;
+        line-height: 34px;
+    }
+}
+
+

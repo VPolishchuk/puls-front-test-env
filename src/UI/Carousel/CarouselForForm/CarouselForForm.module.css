@@ -1,0 +1,189 @@
+.CarouselForForm {
+    height: 175px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.CarouselForForm .carouselContent {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CarouselForForm h2 {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 85px;
+    color: #333333;
+}
+
+.CarouselForForm .slideItem {
+    height: 56px;
+}
+
+.CarouselForForm .slideItemActive {
+    height: 56px;
+}
+
+.CarouselForForm .slideItemActive h2 {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    color: #CE341F;
+    text-align: center;
+    transition: all .5s;
+}
+
+.CarouselForForm .slideItem h2 {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 56px;
+    letter-spacing: 0.05em;
+    color: #E59393;
+    opacity: 0.15;
+    text-align: center;
+    transition: all .5s;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .CarouselForForm {
+        height: 165px;
+    }
+
+    .CarouselForForm .carouselContent {
+        max-width: 250px;
+    }
+
+    .CarouselForForm h2 {
+        font-size: 52px;
+        line-height: 52px;
+    }
+
+    .CarouselForForm .slideItem {
+        height: 52px;
+    }
+
+    .CarouselForForm .slideItemActive {
+        height: 52px;
+    }
+
+    .CarouselForForm .slideItemActive h2 {
+        font-size: 52px;
+        line-height: 52px;
+    }
+
+    .CarouselForForm .slideItem h2 {
+        font-size: 32px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .CarouselForForm {
+        height: 125px;
+    }
+
+    .CarouselForForm .carouselContent {
+        max-width: 200px;
+    }
+
+    .CarouselForForm h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .CarouselForForm .slideItem {
+        height: 40px;
+    }
+
+    .CarouselForForm .slideItemActive {
+        height: 40px;
+    }
+
+    .CarouselForForm .slideItemActive h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .CarouselForForm .slideItem h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .CarouselForForm {
+        height: 125px;
+    }
+
+    .CarouselForForm .carouselContent {
+        max-width: 200px;
+    }
+
+    .CarouselForForm h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .CarouselForForm .slideItem {
+        height: 40px;
+    }
+
+    .CarouselForForm .slideItemActive {
+        height: 40px;
+    }
+
+    .CarouselForForm .slideItemActive h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .CarouselForForm .slideItem h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .CarouselForForm {
+        height: 125px;
+    }
+
+    .CarouselForForm .carouselContent {
+        max-width: 200px;
+    }
+
+    .CarouselForForm h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .CarouselForForm .slideItem {
+        height: 40px;
+    }
+
+    .CarouselForForm .slideItemActive {
+        height: 40px;
+    }
+
+    .CarouselForForm .slideItemActive h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .CarouselForForm .slideItem h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+}

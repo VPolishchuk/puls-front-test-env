@@ -1,0 +1,171 @@
+.InputFile {
+    height: 55px;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.InputFile .inputFileWrapper {
+    display: flex;
+}
+
+.InputFile i {
+    display: flex;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.InputFile i:hover svg path {
+    stroke: #CE341F;
+    transition: all .3s ease-in-out;
+}
+
+.InputFile input {
+    width: .1px;
+    height: .1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.InputFile input + label {
+    cursor: pointer;
+}
+
+.InputFile label {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: #333333;
+    cursor: pointer;
+}
+
+.InputFile span {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #333333;
+    opacity: 0.4;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .InputFile {
+        height: 30px;
+        margin-top: 30px;
+    }
+
+    .InputFile input {
+        width: .1px;
+        height: .1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .InputFile input + label {
+        font-size: 1.25em;
+        font-weight: 700;
+        color: white;
+        background-color: black;
+        display: inline-block;
+    }
+
+    .InputFile input + label {
+        cursor: pointer;
+    }
+
+    .InputFile label {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        font-family: Gilroy, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.1em;
+        color: #333333;
+    }
+
+    .InputFile label svg {
+        margin-left: 16px;
+    }
+
+    .InputFile span {
+        font-family: Gilroy, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        color: #333333;
+        opacity: 0.4;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .InputFile {
+        margin-top: 30px;
+    }
+
+    .InputFile input {
+        width: .1px;
+        height: .1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .InputFile input + label {
+        font-size: 1.25em;
+        font-weight: 700;
+        color: white;
+        background-color: black;
+        display: inline-block;
+    }
+
+    .InputFile input + label {
+        cursor: pointer;
+    }
+
+    .InputFile label {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        font-family: Gilroy, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.1em;
+        color: #333333;
+    }
+
+    .InputFile label svg {
+        margin-left: 16px;
+    }
+
+    .InputFile span {
+        font-family: Gilroy, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        color: #333333;
+        opacity: 0.4;
+    }
+}

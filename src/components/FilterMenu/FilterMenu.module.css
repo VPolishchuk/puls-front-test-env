@@ -1,0 +1,88 @@
+@import "../../style/Fonts/gilroy/gilroy.css";
+
+.FilterMenu {
+    left: 0;
+    position: absolute;
+    background-color: #FCFCFC;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    max-width: 784px;
+    overflow-y: hidden;
+    max-height: 100vh;
+    padding: 0 4%;
+    z-index: -1;
+}
+.FilterMenu > div {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: max-content;
+}
+.FilterMenu.active {
+    /* animation: open .1s linear; */
+    z-index: 89;
+    top: 79%;
+}
+
+.FilterMenu.close {
+    /* animation: close .1s linear; */
+    z-index: -1;
+    top: -200%;
+}
+
+.CategoryBox {
+    width: 100%;
+    height: max-content;
+    margin-bottom: 40px;
+}
+
+.CategoryBox:first-child {
+    margin-top: 40px;
+}
+
+
+.CategoryBox h2 {
+    text-align: start;
+    color: #CE341F;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.CategoryBox .tagWrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@keyframes open {
+    0% {
+        opacity: 0;
+        transform: translateY(-100vh);
+    }
+    95% {
+        opacity: 0;
+        transform: translateY(-5vh);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes close {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100vh);
+    }
+}

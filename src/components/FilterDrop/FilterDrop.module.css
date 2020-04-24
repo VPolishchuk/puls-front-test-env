@@ -1,0 +1,52 @@
+.FilterDrop {
+    width: 110px;
+    height: 35px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.FilterDrop:hover span {
+    color: #CE341F;
+    transition: color .3s ease-in-out;
+}
+
+.FilterDrop span {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    color: #333333;
+}
+
+.angleDown {
+    width: 12px;
+    height: 12px;
+    transform: rotate(135deg);
+    transform-origin: center center;
+    transform-box: fill-box;
+    border-top: 2px solid #333333;
+    border-right: 2px solid #333333;
+    transition: translate 0.3s ease-out;
+}
+
+.angleUp {
+    width: 12px;
+    height: 12px;
+    transform: rotate(135deg);
+    transform-origin: center center;
+    transform-box: fill-box;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #333333;
+    transition: translate 0.3s ease-out;
+}

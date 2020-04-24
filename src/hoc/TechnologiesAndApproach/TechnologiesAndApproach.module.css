@@ -1,0 +1,56 @@
+.TechnologiesAndApproach {
+   width: 100%;
+   padding: 0 160px;
+   background: #1A1A1A url("../../style/Images/Background/TechnologiesAndApproach/TechnologiesAndApproach1200.svg") 50% 50% no-repeat;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1680px) {
+   .TechnologiesAndApproach {
+      padding: 0 70px;
+      background: #1A1A1A url("../../style/Images/Background/TechnologiesAndApproach/TechnologiesAndApproach992.svg") 50% 50% no-repeat;
+   }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+   .TechnologiesAndApproach {
+      padding: 0 32px;
+      background: #1A1A1A url("../../style/Images/Background/TechnologiesAndApproach/TechnologiesAndApproach992.svg") 50% 50% no-repeat;
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+   .TechnologiesAndApproach {
+      padding: 0 24px;
+      background: #1A1A1A url("../../style/Images/Background/TechnologiesAndApproach/TechnologiesAndApproach768.svg") 50% 50% no-repeat;
+   }
+   @media screen and (orientation: landscape) {
+
+      @supports (padding: max(0px)) {
+         .TechnologiesAndApproach {
+            padding-left: max(16px, env(safe-area-inset-left));
+            padding-right: max(16px, env(safe-area-inset-right));
+         }
+      }
+   }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+   .TechnologiesAndApproach {
+      padding: 0 16px;
+      background: #1A1A1A url("../../style/Images/Background/TechnologiesAndApproach/TechnologiesAndApproach576.svg") 50% 50% no-repeat;
+   }
+}
+
+@media screen and (max-width: 575px) {
+   .TechnologiesAndApproach {
+      padding: 0 16px;
+      background: #1A1A1A url("../../style/Images/Background/TechnologiesAndApproach/TechnologiesAndApproach425.svg") 50% 50% no-repeat;
+   }
+
+}
+

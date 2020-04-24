@@ -1,0 +1,107 @@
+.Drawer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #1A1A1A url("../../../style/Images/Background/DrawerBackground/Drawer425.svg") 50% 50% no-repeat;
+    transform: translateX(100%);
+    transition: transform .3s ease-in;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Drawer.open {
+    transform: translateX(0%);
+}
+
+.Drawer div {
+    height: 338px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.Drawer ul {
+    list-style: none;
+    height: 183px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Drawer ul li a{
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #E6E6E6;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .Drawer {
+        background: #1A1A1A url("../../../style/Images/Background/DrawerBackground/Drawer992.svg") 50% 50% no-repeat;
+        top: 70px;
+    }
+
+    .Drawer>div {
+        height: 350px;
+    }
+
+    .Drawer ul li {
+        font-size: 30px;
+        line-height: 37px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .Drawer {
+        background: #1A1A1A url("../../../style/Images/Background/DrawerBackground/Drawer768.svg") 50% 50% no-repeat;
+        top: 70px;
+    }
+
+    .Drawer>div {
+        height: 350px;
+    }
+
+    .Drawer ul li {
+        font-size: 30px;
+        line-height: 37px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .Drawer {
+        background: #1A1A1A url("../../../style/Images/Background/DrawerBackground/Drawer576.svg") 50% 50% no-repeat;
+        top: 50px;
+    }
+
+    .Drawer>div {
+        height: 270px;
+    }
+
+    .Drawer ul li {
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .Drawer {
+        background: #1A1A1A url("../../../style/Images/Background/DrawerBackground/Drawer425.svg") 50% 50% no-repeat;
+        top: 60px;
+    }
+}

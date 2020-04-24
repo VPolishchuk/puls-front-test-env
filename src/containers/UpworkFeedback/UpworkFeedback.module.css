@@ -1,0 +1,98 @@
+.UpworkFeedback {
+    width: 100%;
+    padding: 90px;
+    background: #F2F2F2;
+    box-sizing: border-box;
+}
+
+.UpworkFeedback .container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.UpworkFeedback h1 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 85px;
+    text-align: center;
+    color: #CE341F;
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1599px) {
+    .UpworkFeedback {
+        padding: 88px 70px;
+    }
+
+    .UpworkFeedback .container {
+        max-width: 1140px;
+    }
+
+    .UpworkFeedback h1 {
+        font-size: 56px;
+        line-height: 73px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .UpworkFeedback {
+        padding: 80px 32px;
+    }
+
+    .UpworkFeedback .container {
+        max-width: 957px;
+    }
+    
+    .UpworkFeedback h1 {
+        font-size: 52px;
+        line-height: 68px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .UpworkFeedback {
+        padding: 80px 24px;
+    }
+
+    .UpworkFeedback .container {
+        max-width: 720px;
+    }
+    
+    .UpworkFeedback h1 {
+        font-size: 48px;
+        line-height: 62px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .UpworkFeedback {
+        padding: 56px 18px;
+    }
+
+    .UpworkFeedback .container {
+        max-width: 540px;
+    }
+    
+    .UpworkFeedback h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .UpworkFeedback {
+        padding: 80px 16px;
+    }
+
+    .UpworkFeedback .container {
+        max-width: 343px;
+    }
+    
+    .UpworkFeedback h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}

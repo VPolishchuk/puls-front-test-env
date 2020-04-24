@@ -1,0 +1,47 @@
+.Button {
+    width: 100%;
+    max-width: 228px;
+    height: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid #CE341F;
+    border-radius: 4px;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #CE341F;
+    letter-spacing: 0.1em;
+    transition: all .3s ease-in-out;
+}
+
+.Button.Dark:hover {
+    background-color: #CE341F;
+    color: #141414;
+}
+
+.Button.Light:hover {
+    background-color: #CE341F;
+    color: #F2F2F2;
+}
+
+.Button:disabled {
+    border-color: #333333;
+    color: #333333;
+    opacity: .4;
+}
+
+.Button:disabled:hover {
+    background: none;
+    color: #333333;
+    opacity: .4;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+}

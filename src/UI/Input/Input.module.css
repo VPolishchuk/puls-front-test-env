@@ -1,0 +1,137 @@
+.Input {
+    margin-bottom: 56px;
+    width: 100%;
+    max-width: 646px;
+    height: 58px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Input label {
+    position: absolute;
+    top: 30px;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: #333333;
+    opacity: 0.4;
+    transition: top .3s, color .9s, font-size .4s ease-in-out;
+}
+
+.Input label span {
+    color: #CE341F;
+}
+
+.Input.invalid label {
+    color: #CE341F;
+}
+.Input.invalid input {
+    border-color: #CE341F;
+}
+
+.Input.focusOn label {
+    top: 0px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.Input.textareaContainer {
+    height: auto;
+    min-height: 58px;
+    padding-top: 28px;
+    box-sizing: border-box;
+}
+
+.Input textarea {
+    min-height: 35px;
+}
+
+.Input input, textarea {
+    display: block;
+    width: 100%;
+    padding-left: 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    border-radius: unset;
+    outline: none;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: #333333;
+    transition: border-bottom .9s ease-in-out;
+    border-bottom: 1px solid #BDBDBD;
+    resize: none;
+}
+
+.Input textare {    
+    max-height: 90px;
+    overflow-y: scroll;
+}
+
+.Input .text {
+    width:100%;
+}
+.Input .textareaBehavior{
+    border:none;
+    width:99%;
+    word-wrap: break-word;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+}
+
+.Input .descriptionTextHiddenContainer{
+    position: relative;
+}
+.Input #descriptionTextHidden {
+    visibility: hidden;
+    position: absolute;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1679px){
+    .Input {
+        margin-bottom: 32px;
+        max-width: 554px;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .Input {
+        margin-bottom: 32px;
+        max-width: 460px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .Input {
+        margin-bottom: 11px;
+        max-width: 352px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .Input {
+        margin-bottom: 11px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .Input {
+        margin-bottom: 11px;
+    }
+}

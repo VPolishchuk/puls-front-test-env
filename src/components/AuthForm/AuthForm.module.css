@@ -1,0 +1,42 @@
+
+.Layout {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Layout form {
+    width: 500px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Layout p {
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.Layout label  {
+    width: 100%;
+}
+
+.Layout label input {
+    width : 100%;
+    height: 40px;
+    margin: 10px 0;
+    border: 0;
+    cursor: text;
+    padding: 0 15px 0;
+    border-radius: 5px;
+}
+
+.Layout button {
+    width: 100%;
+}

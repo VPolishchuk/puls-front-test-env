@@ -1,0 +1,293 @@
+.FeedbackCard {
+    display: block;
+    width: 100%;
+    max-width: 512px;
+    margin: 0 auto;
+    height: 500px;
+    padding: 16px;
+    background: #FCFCFC;
+    box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+}
+
+.FeedbackCard .feedbackCardContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.FeedbackCard .feedbackCardTop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FeedbackCard .feedbackCardCommentTop {
+    position: relative;
+}
+
+.FeedbackCard .feedbackDateRatingContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 367px;
+    left: 110px;
+    bottom: -7px;
+}
+
+.FeedbackCard .rating {
+    width: 100%;
+    max-width: 152px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FeedbackCard .logoFeedbackDate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.FeedbackCard .upworkLogo {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.FeedbackCard .upworkLogo img {
+    width: 100%;
+}
+
+.FeedbackCard .logoFeedbackDate {
+    display: flex;
+    flex-direction: column;
+}
+
+.FeedbackCard .logoName {
+    display: flex;
+}
+
+.FeedbackCard .feedbackDate {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.FeedbackCard .feedbackDate p {
+    margin-top: 8px;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    color: #333333;
+    opacity: 0.5;
+}
+
+.FeedbackCard .logoName .feedbackHeading {
+    width: 100%;
+    margin-left: 32px;
+}
+
+.FeedbackCard .feedbackHeading {
+    width: 100%;
+    margin-left: 32px;
+}
+
+.FeedbackCard h3 {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.FeedbackCard .feedbackText {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.FeedbackCard .feedbackText p {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1599px) {
+    .FeedbackCard {
+        max-width: 359px;
+        height: 676px;
+    }
+
+    .FeedbackCard .feedbackCardTop {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .FeedbackCard .logoFeedbackDate {
+        align-items: center;
+    }
+    
+    .FeedbackCard .feedbackDateRatingContainer {
+        position: unset;
+        width: 100%;
+    }
+
+    .FeedbackCard .feedbackHeading {
+        margin: 0;
+    }
+
+    .FeedbackCard .feedbackCardTop h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .FeedbackCard {
+        max-width: 461px;
+        height: 528px;
+        margin-left: 5px;
+    }
+
+    
+    .FeedbackCard .feedbackCardTop {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .FeedbackCard .logoName .feedbackHeading {
+        margin-left: 24px;
+    }
+
+    .FeedbackCard .feedbackDateRatingContainer {
+        width: 325px;
+        left: 103px;
+    }
+
+    .FeedbackCard .logoFeedbackDate {
+        align-items: center;
+    }
+
+    .FeedbackCard .feedbackHeading {
+        margin: 0;
+    }
+
+    .FeedbackCard .feedbackCardTop h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .FeedbackCard {
+        max-width: 352px;
+        height: 696px;
+        margin-left: 3px;
+    }
+    
+    .FeedbackCard .feedbackCardTop {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .FeedbackCard .logoName .feedbackHeading {
+        margin-left: 24px;
+    }
+
+    .FeedbackCard .feedbackDateRatingContainer {
+        width: 100%;
+        position: unset;
+    }
+
+    .FeedbackCard .logoFeedbackDate {
+        align-items: center;
+    }
+
+    .FeedbackCard .feedbackHeading {
+        margin: 0;
+    }
+
+    .FeedbackCard .feedbackCardTop h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .FeedbackCard {
+        max-width: 540px;
+        height: 472px;
+        margin-left: 0;
+    }
+    
+    .FeedbackCard .logoName .feedbackHeading {
+        margin-left: 24px;
+    }
+
+    .FeedbackCard .feedbackDateRatingContainer {
+        width: 404px;
+        left: 103px;
+    }
+
+    .FeedbackCard .logoFeedbackDate {
+        align-items: center;
+    }
+
+    .FeedbackCard .feedbackHeading {
+        margin-left: 24px;
+    }
+    
+    .FeedbackCard .feedbackText p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .FeedbackCard {
+        max-width: 343px;
+        height: 668px;
+        margin-left: 0;
+    }
+
+    .FeedbackCard .feedbackCardTop {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .FeedbackCard .logoFeedbackDate {
+        align-items: center;
+    }
+
+    .FeedbackCard .feedbackDateRatingContainer {
+        position: unset;
+        width: 100%;
+    }
+
+    .FeedbackCard .feedbackHeading {
+        margin-left: 0;
+    }
+
+    .FeedbackCard .feedbackCardTop h3 {
+        text-align: center;
+    }
+    
+    .FeedbackCard .feedbackText {
+        margin-top: 16px;
+    }
+    
+    .FeedbackCard .feedbackText p {
+        font-size: 16px;
+    }
+}

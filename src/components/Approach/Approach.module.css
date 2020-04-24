@@ -1,0 +1,44 @@
+.Approach {
+    width: 100%;
+    padding: 80px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.Approach h1 {
+    margin-bottom: 60px;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 85px;
+    color: #E6E6E6;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .Approach {
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .Approach h1 {
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .Approach {
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .Approach h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}

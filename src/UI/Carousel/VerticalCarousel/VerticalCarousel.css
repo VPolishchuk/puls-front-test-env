@@ -1,0 +1,16 @@
+.carousel .slider-wrapper .slider .selected h3 {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: #CE341F;
+    text-transform: capitalize;
+    transition: .3s;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.carousel .slider-wrapper .slide {
+    background: none;
+}

@@ -1,0 +1,49 @@
+.FormDrawer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 20;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FormDrawer .FormDrawerContent {
+    max-width: 780px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FormDrawer h1 {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    color: #333333;
+    margin-top: 0;
+    text-transform: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .FormDrawer {
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+
+    .FormDrawer .FormDrawerContent {
+        height: 400px;
+    }
+
+    .FormDrawer h1 {
+        font-size: 40px;
+        line-height: 62px;
+    }
+}
